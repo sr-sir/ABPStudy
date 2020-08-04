@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6DCFF7D-B9FC-42C2-8438-8E43AB1A6742}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABPStudy.Application", "src\ABPStudy111.Application\ABPStudy.Application.csproj", "{8B57932B-E8F9-4701-968F-704083A4D280}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABPStudy.Application", "src\ABPStudy.Application\ABPStudy.Application.csproj", "{8B57932B-E8F9-4701-968F-704083A4D280}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABPStudy.Core", "src\ABPStudy111.Core\ABPStudy.Core.csproj", "{7131BF7F-961F-45CF-A060-853FAAF08AF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABPStudy.Core", "src\ABPStudy.Core\ABPStudy.Core.csproj", "{7131BF7F-961F-45CF-A060-853FAAF08AF6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABPStudy.Repositories", "src\ABPStudy111.Repositories\ABPStudy.Repositories.csproj", "{539FD734-5AB0-4413-B2FD-C1A79B54EFEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABPStudy.Repositories", "src\ABPStudy.Repositories\ABPStudy.Repositories.csproj", "{539FD734-5AB0-4413-B2FD-C1A79B54EFEF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABPStudy.Web", "src\ABPStudy111.Web\ABPStudy.Web.csproj", "{AB4D1A6B-73BF-44EE-8AB2-928A9A444F68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABPStudy.Web", "src\ABPStudy.Web\ABPStudy.Web.csproj", "{AB4D1A6B-73BF-44EE-8AB2-928A9A444F68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

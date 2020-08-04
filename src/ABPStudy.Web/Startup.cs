@@ -11,16 +11,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.PlatformAbstractions;
-using ABPStudy111.Application.IServices;
-using ABPStudy111.Application.Services;
-using ABPStudy111.Repositories.DbContextFile;
+using ABPStudy.Application.IServices;
+using ABPStudy.Application.Services;
+using ABPStudy.Repositories.DbContextFile;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Ordering.API.Infrastructure.AutofacModules;
 
-namespace ABPStudy111.Web
+namespace ABPStudy.Web
 {
     public class Startup
     {
@@ -78,7 +78,7 @@ namespace ABPStudy111.Web
         }
         private string GetXmlCommentsPath(ApplicationEnvironment appEnvironment)
         {
-            return Path.Combine(appEnvironment.ApplicationBasePath, "ABPStudy111.Web.xml");
+            return Path.Combine(appEnvironment.ApplicationBasePath, "ABPStudy.Web.xml");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

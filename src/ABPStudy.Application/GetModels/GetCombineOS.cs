@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ABPStudy111.Application.GetModels
+namespace ABPStudy.Application.GetModels
 {
     public class GetCombineOS
     {

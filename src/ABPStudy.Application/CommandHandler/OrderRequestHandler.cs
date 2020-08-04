@@ -1,6 +1,6 @@
 ﻿using ABPStudy.Application.RequestModels;
-using ABPStudy111.Core.Dto;
-using ABPStudy111.Repositories.DbContextFile;
+using ABPStudy.Core.Dto;
+using ABPStudy.Repositories.DbContextFile;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;

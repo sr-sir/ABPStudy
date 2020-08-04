@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ABPStudy111.Application.GetModels;
-using ABPStudy111.Application.IServices;
-using ABPStudy111.Repositories.DbContextFile;
+using ABPStudy.Application.GetModels;
+using ABPStudy.Application.IServices;
+using ABPStudy.Repositories.DbContextFile;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ABPStudy111.Application.Services
+namespace ABPStudy.Application.Services
 {
     public class OrdersService : IOrdersService
     {

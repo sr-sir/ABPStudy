@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using ABPStudy111.Application.GetModels;
-using ABPStudy111.Application.IServices;
+using ABPStudy.Application.GetModels;
+using ABPStudy.Application.IServices;
 using ABPStudy.Application.RequestModels;
 using MediatR;
 using StackExchange.Redis;
 using AutoMapper;
 
-namespace ABPStudy111.Web.Controllers
+namespace ABPStudy.Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

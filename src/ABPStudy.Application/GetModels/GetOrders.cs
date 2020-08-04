@@ -1,11 +1,10 @@
-﻿using Sino.Domain.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ABPStudy111.Core.Dto
+namespace ABPStudy.Application.GetModels
 {
-    public class Orders : Entity<int>
+    public class GetOrders
     {
         /// <summary>
         /// 创建人姓名
@@ -56,35 +55,5 @@ namespace ABPStudy111.Core.Dto
         /// 详细地址
         /// </summary>
         public string Address { get; set; }
-
-        /// <summary>
-        /// 完整地址
-        /// </summary>
-        public string Detailaddress { get; set; }
-
-        /// <summary>
-        /// 经度
-        /// </summary>
-        public string Longitude { get; set; }
-
-        /// <summary>
-        /// 纬度
-        /// </summary>
-        public string Latitude { get; set; }
-
-        /// <summary>
-        /// 报修人姓名
-        /// </summary>
-        public string RepairName { get; set; }
-
-        /// <summary>
-        /// 手机号区号
-        /// </summary>
-        public string PhoneCode { get; set; }
-
-        /// <summary>
-        /// 手机号码
-        /// </summary>
-        public string PhoneNumber { get; set; }
     }
 }

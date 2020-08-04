@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ABPStudy111.Web": {
+    "ABPStudy.Web": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger/index.html",

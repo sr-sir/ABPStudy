@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ABPStudy111.Core.Dto;
 using ABPStudy.Core.Dto;
 
-namespace ABPStudy111.Repositories.DbContextFile
+namespace ABPStudy.Repositories.DbContextFile
 {
     public class TestDbContext : DbContext
     {

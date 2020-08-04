@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace ABPStudy111.Web
+namespace ABPStudy.Web
 {
     public class Program
     {

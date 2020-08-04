@@ -1,4 +1,4 @@
-﻿using ABPStudy111.Core.Dto;
+﻿using ABPStudy.Core.Dto;
 using MediatR;
 using System;
 using System.Collections.Generic;

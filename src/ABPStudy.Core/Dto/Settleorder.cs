@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
 
-namespace ABPStudy111.Core.Dto
+namespace ABPStudy.Core.Dto
 {
     public class Settleorder : Entity<int>
     {

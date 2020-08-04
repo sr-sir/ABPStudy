@@ -13,7 +13,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\ABPStudy111.Core\ABPStudy.Core.csproj" />
-    <ProjectReference Include="..\ABPStudy111.Repositories\ABPStudy.Repositories.csproj" />
+    <ProjectReference Include="..\ABPStudy.Core\ABPStudy.Core.csproj" />
+    <ProjectReference Include="..\ABPStudy.Repositories\ABPStudy.Repositories.csproj" />
   </ItemGroup>
 </Project>
